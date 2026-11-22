@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@google/genai": "^3.6.1",
-<<<<<<< HEAD
     "@langchain/langgraph": "^1.2.0",
     "@langchain/langgraph-checkpoint-redis": "^1.0.1",
     "archiver": "^8.0.0",
@@ -24,9 +23,7 @@
     "ws": "^8.18.0"
   },
   "devDependencies": {
-    "concurrently": "^9.0.1"
-=======
+    "concurrently": "^9.0.1",
     "dotenv": "^18.0.10"
->>>>>>> ac5503a (Fix GenAI dependency installation)
   }
 }
