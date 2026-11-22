@@ -1,0 +1,116 @@
+[
+  {
+    "id": "project-1791730507572",
+    "userId": "457ac496-adfa-4831-93f9-83646b5cd8e4",
+    "name": "Basic calculator",
+    "requirement": "basic calculator",
+    "tokenBudget": 2,
+    "status": "cancelled",
+    "currentPhase": "pm",
+    "currentTask": null,
+    "sandboxId": null,
+    "projectType": "full_stack",
+    "technologyConstraints": {},
+    "createdAt": "2026-10-11T14:55:07.577Z",
+    "updatedAt": "2026-10-11T14:56:54.212Z",
+    "completedAt": null,
+    "error": null
+  },
+  {
+    "id": "project-1791730893567",
+    "userId": "457ac496-adfa-4831-93f9-83646b5cd8e4",
+    "requirement": "basic calculator",
+    "tokenBudget": 2,
+    "status": "running",
+    "currentPhase": "dev_loop",
+    "sandboxId": null,
+    "technologyConstraints": {
+      "frontend": [
+        "React",
+        "Tailwind CSS"
+      ],
+      "backend": [],
+      "database": [],
+      "other": []
+    },
+    "createdAt": "2026-10-11T15:01:33.571Z",
+    "updatedAt": "2026-10-11T15:04:09.751Z",
+    "completedAt": null,
+    "error": null
+  },
+  {
+    "id": "project-1791730241861",
+    "userId": "457ac496-adfa-4831-93f9-83646b5cd8e4",
+    "name": "Basic calculator",
+    "requirement": "basic calculator",
+    "tokenBudget": 2,
+    "status": "waiting_input",
+    "currentPhase": "pm",
+    "currentTask": null,
+    "sandboxId": null,
+    "projectType": "full_stack",
+    "technologyConstraints": {},
+    "createdAt": "2026-10-11T14:50:41.861Z",
+    "updatedAt": "2026-10-11T14:55:00.000Z",
+    "completedAt": null,
+    "error": null
+  },
+  {
+    "id": "project-1794930681921",
+    "userId": "457ac496-adfa-4831-93f9-83646b5cd8e4",
+    "requirement": "calculator web app",
+    "tokenBudget": 2,
+    "status": "completed",
+    "currentPhase": "done",
+    "sandboxId": "sandbox-1794930816521",
+    "technologyConstraints": {
+      "frontend": [
+        "React",
+        "Tailwind CSS"
+      ],
+      "backend": [],
+      "database": [],
+      "other": []
+    },
+    "createdAt": "2026-11-17T15:51:21.928Z",
+    "updatedAt": "2026-11-17T16:01:32.944Z",
+    "completedAt": "2026-11-17T16:01:32.944Z",
+    "error": null,
+    "projectType": "frontend_only",
+    "name": "react-arithmetic-calculator"
+  },
+  {
+    "id": "project-1794933776907",
+    "userId": "457ac496-adfa-4831-93f9-83646b5cd8e4",
+    "name": "Blog platform with comments and tags",
+    "requirement": "Blog platform with comments and tags",
+    "tokenBudget": 2,
+    "status": "running",
+    "currentPhase": "pm",
+    "currentTask": null,
+    "sandboxId": null,
+    "projectType": "full_stack",
+    "technologyConstraints": {},
+    "createdAt": "2026-11-17T16:42:56.914Z",
+    "updatedAt": "2026-11-17T16:43:01.821Z",
+    "completedAt": null,
+    "error": null
+  },
+  {
+    "id": "project-1795340941719",
+    "userId": "996ecbec-d6ce-4884-9cdf-46bbe46e8e95",
+    "name": "Blog platform with comments and tags",
+    "requirement": "Blog platform with comments and tags",
+    "tokenBudget": 2,
+    "status": "running",
+    "currentPhase": "pm",
+    "currentTask": null,
+    "sandboxId": null,
+    "projectType": "full_stack",
+    "technologyConstraints": {},
+    "createdAt": "2026-11-22T09:49:01.727Z",
+    "updatedAt": "2026-11-22T09:49:09.946Z",
+    "completedAt": null,
+    "error": null
+  }
+]

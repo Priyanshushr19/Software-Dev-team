@@ -1,0 +1,22 @@
+[
+  {
+    "id": "5ab27951-d609-4a6f-ac8c-737d7a596c60",
+    "email": "admin@gmail.com",
+    "name": "admin",
+    "provider": "local",
+    "passwordHash": "$2a$10$2DGSwRNei4GUdNEADoSKtuYcBNbMBXdBmGZvd95De5OIJltdO0.cq",
+    "googleSub": null,
+    "createdAt": "2026-08-10T08:28:53.939Z",
+    "lastLoginAt": "2026-09-13T12:41:56.341Z"
+  },
+  {
+    "id": "60124b52-70da-434e-ab8a-c54b81199487",
+    "email": "dummy@gmail.com",
+    "name": "dummy",
+    "provider": "local",
+    "passwordHash": "$2a$10$LpZ34wfBu3pCNtaQrX.wnOFKHR9mWnlWj7fG3d/v3MJPlC4px0f5.",
+    "googleSub": null,
+    "createdAt": "2026-08-10T08:30:26.844Z",
+    "lastLoginAt": "2026-08-10T08:30:26.844Z"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "name": "ai-dev-team",
+  "version": "2.0.0",
+  "description": "AI-Powered Multi-Agent Software Development Team",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "server": "node server/index.js",
+    "dashboard": "cd dashboard && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run dashboard\"",
+    "test:graph": "node tests/test-graph-skeleton.js",
+    "test:pm": "node tests/test-pm-agent.js",
+    "test:architect": "node tests/test-architect.js",
+    "test:validator": "node tests/test-validator.js",
+    "test:planner": "node tests/test-planner.js",
+    "test:sandbox": "node tests/test-sandbox.js",
+    "test:devloop": "node tests/test-devloop.js",
+    "test:auth": "node tests/test-auth.js",
+    "test:resume": "node tests/test-resume.js",
+    "test:pm:clarification": "node tests/test-pm-clarification.js",
+    "test:planner:integration": "node tests/test-planner-integration.js",
+    "test:projects": "node tests/test-my-projects.js",
+    "test:final": "node tests/test-final-production.js",
+    "test:all:mock": "node tests/test-graph-skeleton.js && node tests/test-validator.js && node tests/test-devloop.js && node tests/test-auth.js && node tests/test-my-projects.js && node tests/test-resume.js && node tests/test-planner-integration.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.43.0",
+    "@langchain/langgraph": "^1.2.0",
+    "@langchain/langgraph-checkpoint-redis": "^1.0.1",
+    "archiver": "^8.0.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0",
+    "google-auth-library": "^9.15.1",
+    "jsonwebtoken": "^9.0.2",
+    "readline": "^1.3.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
